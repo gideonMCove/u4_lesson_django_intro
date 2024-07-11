@@ -164,7 +164,7 @@ After running postgres, create a new file called `settings.sql` in the project r
   Then run the following command from the root directory:
 
   ```
-   psql -U postgres -f settings.sql
+   psql -f settings.sql
   ```
 
 If you are getting an error about a postgres user being needed, enter this instead
