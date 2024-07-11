@@ -203,7 +203,9 @@ If you need to enter the Postgres Shell before entering PSQL, you may simply wan
   python3 manage.py
   ```
 
-13. Finally, navigate to `localhost:8000`. You should see a page welcoming you to Django! 
+13. Finally, navigate to `localhost:8000`. You should see a page welcoming you to Django!
+
+If you see a message that says "You have 17 unapplied migrations..." that is normal, we'll just have to run those Migrations in the next part!
 
 ## Models 
 
